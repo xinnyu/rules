@@ -1,0 +1,25 @@
+# Apple Intelligence / Siri / Private Relay related domains for Egern & Surge
+# Maintained by xinnyu — union of personal list and ddgksf2013/Filter AppleIntelligence.list
+# Notes: gspe1-ssl.ls.apple.com and apple-relay.apple.com are for Siri ChatGPT extension login
+# Updated: 2026-11-09
+
+DOMAIN,guzzoni.apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-KEYWORD,siri
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,api-siri-prod.apple.com
