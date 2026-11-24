@@ -2,5 +2,8 @@
 #!desc=屏蔽野小兽（YESOUL）App 开屏广告与弹窗广告
 #!system=ios
 
+[Script]
+野小兽去广告 = type=http-response, pattern=^https?:\/\/api\.yesoulchina\.com\/v\d+\/sys\/getBanners(\?.*)?$, requires-body=1, max-size=262144, timeout=10, script-path=https://raw.githubusercontent.com/xinnyu/rules/main/modules/scripts/yesoul-adblock.js
+
 [MITM]
-hostname = %APPEND% *.yesoulchina.com
+hostname = %APPEND% api.yesoulchina.com
