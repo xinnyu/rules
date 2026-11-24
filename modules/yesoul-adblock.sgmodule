@@ -1,0 +1,6 @@
+#!name=野小兽去广告
+#!desc=屏蔽野小兽（YESOUL）App 开屏广告与弹窗广告
+#!system=ios
+
+[MITM]
+hostname = %APPEND% *.yesoulchina.com
